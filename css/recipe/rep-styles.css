@@ -1,0 +1,68 @@
+@import"../header-footer.css";
+@import"../layout.css";
+
+/* start main content */
+
+main {
+    width: 100%;
+    background-color: rgb(246, 238, 217);
+    overflow: hidden;
+}
+
+main section.prd-recipe {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    float: none;
+    overflow: hidden;
+}
+
+.prd-recipe h1 {
+    font-family: roboto;
+    text-transform: none;
+    font-size: 3vw;
+    margin-top: 0;
+    text-align: center;
+}
+
+.prd-recipe p {
+    font-size: 1vw;
+    margin: 2rem 0;
+}
+
+.prd-recipe img {
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.prd-recipe article h2 {
+    margin: 1rem 0;
+}
+
+.prd-recipe article p strong {
+    font-weight: bold;
+}
+
+.prd-recipe article p span {
+    padding: 0 1rem;
+}
+
+.prd-recipe article ul,
+.prd-recipe article ol {
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
+.prd-recipe article ul li {
+    list-style-type: square;
+    margin: 0.5rem 0;
+}
+
+.prd-recipe article ol li {
+    list-style-type: decimal;
+    margin: 1rem 0;
+}
+
+
+/* end main content */

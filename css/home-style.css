@@ -1,0 +1,104 @@
+@import "../css/templates/header-footer.css";
+
+/* main content */
+
+main {
+    width: 100%;
+    height: auto;
+    background: url("../images/bg/home-main-bg.jpg");
+}
+
+main section {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section>h1>a {
+    margin: 2rem 0;
+    text-transform: uppercase;
+    color: rgb(227, 104, 104);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* start main news  */
+
+.news article {
+    width: 100%;
+    height: auto;
+    background-color: rgba(147, 149, 151, 0.5);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.news article div {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+
+/* end main news */
+
+
+/* start main products */
+
+.products .prd {
+    width: 31.33%;
+    float: left;
+    margin: 0 1%;
+}
+
+.products .prd:last-child {
+    font: none;
+    overflow: hidden;
+}
+
+.products img {
+    display: inline-block;
+    width: 100%;
+}
+
+.products article {
+    text-align: center;
+}
+
+.link-frame a {
+    width: 50%;
+    height: auto;
+    color: rgb(227, 104, 104);
+    background-color: rgb(245, 223, 77);
+    border-radius: 50rem;
+    padding: 0.5rem 0;
+    margin-left: 5.5rem;
+}
+
+
+/* end main products */
+
+
+/* start main about and contact */
+
+.about .link-frame,
+.contact .link-frame {
+    text-align: center;
+}
+
+.about .link-frame a,
+.contact .link-frame a {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.contact .link-frame a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* end main about and contact */

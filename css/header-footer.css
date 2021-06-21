@@ -1,0 +1,273 @@
+@import "reset.css";
+@import "globals-styles.css";
+
+/* header css */
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 228, 186);
+    position: relative;
+}
+
+
+/* start logo */
+
+header .logo {
+    color: rgb(0, 0, 0);
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo span {
+    text-indent: -999px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .logo a {
+    height: 100%;
+    line-height: 100px;
+}
+
+.logo img {
+    width: 90%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/* end logo */
+
+
+/* start navigation */
+
+header nav {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+
+header nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+header nav ul li {
+    flex: 1;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+header nav ul li a,
+#login a,
+#purchase a {
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active,
+.sub-menu .menu-item a:hover {
+    background-color: rgb(125, 134, 85);
+    color: rgb(255, 255, 255);
+}
+
+.sub-menu {
+    width: 120%;
+    height: 200%;
+    display: block;
+    background-color: rgb(243, 228, 186);
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: -10%;
+}
+
+.sub-menu .menu-item {
+    height: 25%;
+    line-height: 50px;
+    display: block;
+    white-space: nowrap;
+}
+
+.sub-menu .menu-item a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 0.8vw;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:nth-child(2):hover .web-menu,
+.menu li:nth-child(3):hover .recipe-menu {
+    visibility: visible;
+    z-index: 2;
+}
+
+
+/* end navigation */
+
+header #login,
+header #purchase {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 110px;
+    margin: 0;
+}
+
+header #login {
+    top: 0;
+    left: 80%;
+}
+
+header #purchase {
+    top: 0;
+    left: 90%;
+}
+
+header .fas {
+    font-size: 3vw;
+}
+
+header #login a:hover,
+header #purchase a:hover,
+header #login .active,
+header #purchase .active {
+    color: rgb(125, 134, 85);
+}
+
+
+/* footer css */
+
+footer {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 205px;
+    background-color: rgb(125, 134, 85);
+    position: relative;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+footer .logo {
+    display: inline-block;
+    width: 20%;
+    height: 160px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer .logo a {
+    height: 100%;
+    line-height: 160px;
+}
+
+footer .logo img {
+    width: 90%;
+    height: auto;
+    vertical-align: middle;
+}
+
+footer nav {
+    width: 60%;
+    height: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+footer nav ul {
+    width: 100%;
+    height: 100%;
+}
+
+footer nav ul li {
+    width: 20%;
+    height: auto;
+    float: left;
+    text-align: center;
+    line-height: 170px;
+}
+
+footer nav ul li a {
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 60%;
+    height: auto;
+    padding: 1rem 1.5rem;
+}
+
+footer nav ul li a:hover {
+    background-color: rgb(104, 54, 31);
+}
+
+footer .contact-info {
+    font-size: 1vw;
+    word-spacing: 0.2vw;
+    line-height: 3;
+    font-weight: 500;
+    width: 40%;
+    margin-top: 1.5rem;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+
+footer li.social-media i.fab {
+    font-size: 2rem;
+}
+
+footer .social-media a {
+    display: inline;
+    margin: 0.5rem;
+}
+
+footer .contact-info a:hover {
+    color: rgb(104, 54, 31);
+}
+
+footer .copyright {
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid rgb(255, 255, 255);
+    line-height: 45px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .copyright p {
+    margin: 0;
+    font-size: 0.8vw;
+}

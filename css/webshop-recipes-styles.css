@@ -1,0 +1,68 @@
+@import"header-footer.css";
+@import"layout.css";
+
+/* start main content */
+
+main {
+    width: 100%;
+    background-color: rgb(246, 238, 217);
+    overflow: hidden;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main .products {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product {
+    width: 45%;
+    float: left;
+    padding: 2% 2%;
+}
+
+.product img {
+    width: 100%;
+    display: inline-block;
+}
+
+.product h2 {
+    text-transform: uppercase;
+}
+
+.buy,
+.recipe {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+}
+
+.fa-arrow-circle-right {
+    margin-left: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.product:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.buy:hover,
+.recipe:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 131, 131);
+}
+
+
+/* end webshop adn recipes parts*/
+
+
+/* end main content */

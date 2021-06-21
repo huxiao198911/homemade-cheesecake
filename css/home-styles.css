@@ -1,0 +1,178 @@
+@import"header-footer.css";
+
+/* start carousel section */
+
+.carousel {
+    overflow: hidden;
+}
+
+.bx-wrapper {
+    border: none;
+    box-shadow: none;
+    margin-bottom: -5px;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    bottom: 15px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: rgb(255, 255, 255);
+}
+
+.slider {
+    position: relative;
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    height: 60%;
+    padding: 2rem;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.content h1,
+.content h2 {
+    text-transform: uppercase;
+    padding: 1rem;
+    text-shadow: -3px 3px 5px #000;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content a {
+    display: block;
+    margin: 3rem 1rem;
+}
+
+
+/* end carousel section */
+
+
+/* start main content */
+
+main {
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(246, 238, 217);
+}
+
+
+/* start webshop and recipes parts */
+
+main section {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1% 0;
+    overflow: auto;
+}
+
+main .product {
+    width: 23%;
+    float: left;
+    padding: 1% 1%;
+}
+
+main .product img {
+    width: 100%;
+    display: inline-block;
+}
+
+.product h2 {
+    text-transform: uppercase;
+}
+
+.product p {
+    min-height: 60px;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.buy,
+.get-recipe,
+.about-us .more-info {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+}
+
+.product:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.buy:hover,
+.get-recipe:hover,
+.about-us .more-info:hover,
+.contact a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 131, 131);
+}
+
+
+/* end webshop adn recipes parts*/
+
+
+/* start about-us section */
+
+.about-us p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+/* end about-us section */
+
+
+/* start contact section */
+
+main .contact {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    position: relative;
+}
+
+main .contact::before {
+    content: "";
+    background-image: url(../images/products/double-cheese-cake/machta/double-cheesecake-machta3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+main .contact h1,
+main .contact a {
+    position: relative;
+    text-transform: uppercase;
+}
+
+main .contact .fa-envelope {
+    margin-right: 0.5rem;
+}
+
+main .contact a {
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 95px;
+}
+
+
+/* end contact section */
+
+
+/* end main content */

@@ -1,0 +1,58 @@
+@import"header-footer.css";
+@import"layout.css";
+main {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(246, 238, 217);
+}
+
+main section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+main .our-address,
+main .contact-form {
+    width: 50%;
+    float: left;
+}
+
+main div article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main .our-address iframe {
+    width: 100%;
+}
+
+main section article h2 {
+    margin: 1rem 0;
+}
+
+.our-address address {
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+.our-address iframe {
+    margin-bottom: 3rem;
+}
+
+.contact-form p {
+    margin: 1rem 0;
+}
+
+.contact-form form div {
+    margin: 1rem 0;
+}
+
+.contact-form form .submit {
+    width: 100%;
+    text-align: center;
+}

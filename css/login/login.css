@@ -1,0 +1,41 @@
+@import"../header-footer.css";
+@import"../layout.css";
+main {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(246, 238, 217);
+}
+
+main .login {
+    width: 40%;
+    height: auto;
+    padding: 5vh;
+    margin: 5vh auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(131, 131, 131);
+    text-align: center;
+}
+
+main .login>h1 {
+    font-family: Roboto sans-serif;
+    font-size: 2vw;
+}
+
+main .login form {
+    margin: 3rem auto;
+}
+
+main .login input {
+    float: none;
+}
+
+main .login .forget {
+    border-top: 1px solid rgb(131, 131, 131);
+}
+
+main .login .forget a {
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: rgb(125, 134, 85);
+}

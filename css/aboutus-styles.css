@@ -1,0 +1,22 @@
+@import"header-footer.css";
+@import"layout.css";
+main {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(246, 238, 217);
+}
+
+main section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow: auto;
+}
+
+main section h2 {
+    margin-top: 2rem;
+}
+
+main section p {
+    line-height: 1.5;
+}
