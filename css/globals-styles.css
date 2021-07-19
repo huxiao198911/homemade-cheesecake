@@ -1,7 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: "Roboto", sans-serif;
     font-size: 100%;
-    box-sizing: border-box;
     min-width: 980px;
     min-height: 100%;
     overflow-x: hidden;
