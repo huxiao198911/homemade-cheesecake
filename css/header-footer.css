@@ -1,8 +1,5 @@
 @import "reset.css";
 
-/* @import "globals-styles.css"; */
-
-
 /* global styles */
 
 * {
@@ -29,6 +26,9 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+
+/* header */
 
 header {
     width: 100%;
@@ -113,7 +113,7 @@ a.active {
 }
 
 
-/* footer css */
+/* footer */
 
 footer {
     color: #FFF;
@@ -161,115 +161,3 @@ footer .copyright {
     left: 0;
     text-align: center;
 }
-
-
-/* 
-footer {
-    color: rgb(255, 255, 255);
-    width: 100%;
-    height: 205px;
-    background-color: rgb(125, 134, 85);
-    position: relative;
-}
-
-footer a {
-    color: rgb(255, 255, 255);
-}
-
-footer .logo {
-    display: inline-block;
-    width: 20%;
-    height: 160px;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-footer .logo a {
-    height: 100%;
-    line-height: 160px;
-}
-
-footer .logo img {
-    width: 90%;
-    height: auto;
-    vertical-align: middle;
-}
-
-footer nav {
-    width: 60%;
-    height: 80%;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 20%;
-}
-
-footer nav ul {
-    width: 100%;
-    height: 100%;
-}
-
-footer nav ul li {
-    width: 20%;
-    height: auto;
-    float: left;
-    text-align: center;
-    line-height: 170px;
-}
-
-footer nav ul li a {
-    text-transform: uppercase;
-    font-size: 1vw;
-    font-weight: 500;
-    width: 60%;
-    height: auto;
-    padding: 1rem 1.5rem;
-}
-
-footer nav ul li a:hover {
-    background-color: rgb(104, 54, 31);
-}
-
-footer .contact-info {
-    font-size: 1vw;
-    word-spacing: 0.2vw;
-    line-height: 3;
-    font-weight: 500;
-    width: 40%;
-    margin-top: 1.5rem;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 80%;
-}
-
-footer li.social-media i.fab {
-    font-size: 2rem;
-}
-
-footer .social-media a {
-    display: inline;
-    margin: 0.5rem;
-}
-
-footer .contact-info a:hover {
-    color: rgb(104, 54, 31);
-}
-
-footer .copyright {
-    width: 100%;
-    height: 45px;
-    border-top: 1px solid rgb(255, 255, 255);
-    line-height: 45px;
-    letter-spacing: 0.05rem;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-}
-
-footer .copyright p {
-    margin: 0;
-    font-size: 0.8vw;
-} */

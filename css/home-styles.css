@@ -2,46 +2,30 @@
 
 /* start carousel section */
 
-.carousel {
+section.carousel {
+    width: 100%;
+    height: 692px;
     overflow: hidden;
-}
-
-.bx-wrapper {
-    border: none;
-    box-shadow: none;
-    margin-bottom: -5px;
-}
-
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-    bottom: 15px;
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a {
-    background: rgb(255, 255, 255);
-}
-
-.slider {
+    background: url("../images/carousel/basque-cheesecake2.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
     position: relative;
 }
 
 .content {
-    color: rgb(255, 255, 255);
-    height: 60%;
-    padding: 2rem;
+    width: 100%;
     position: absolute;
-    top: 30%;
-    left: 10%;
-}
-
-.content h1,
-.content h2 {
-    text-transform: uppercase;
-    padding: 1rem;
-    text-shadow: -3px 3px 5px #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
 }
 
 .content h1 {
+    text-transform: uppercase;
+    padding: 1rem;
+    text-shadow: 3px 3px 5px #000;
     font-size: 3rem;
 }
 
@@ -57,18 +41,109 @@
 /* start main content */
 
 main {
+    width: 100%;
+    height: auto;
+    background-color: #F6EED9;
     overflow: hidden;
-    text-align: center;
-    background-color: rgb(246, 238, 217);
 }
-
-
-/* start webshop and recipes parts */
 
 main section {
     width: 90%;
-    margin: 2rem auto;
-    padding: 1% 0;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+section span {
+    display: inline-block;
+    background-color: #FFF;
+    padding: 0.3rem 1rem;
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+main section h1,
+main section article h2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+
+main section article {
+    width: 23.5%;
+    float: left;
+    margin: 0 1%;
+}
+
+main section article img {
+    transition: transform 0.5s;
+}
+
+main section article img:hover {
+    transform: scale(1.1);
+}
+
+main section article h2 {
+    margin: 1rem 0;
+}
+
+main section article p {
+    padding-top: 1rem;
+    line-height: 1.5;
+    min-height: 120px;
+}
+
+.carousel div span {
+    width: 30%;
+}
+
+.carousel div span:hover,
+main section article span:hover {
+    background-color: #838383;
+    color: #FFF;
+}
+
+main section article:nth-of-type(1) {
+    margin-left: 0;
+}
+
+main section article:nth-of-type(4) {
+    margin-right: 0;
+}
+
+main section article img {
+    width: 100%;
+    height: auto;
+}
+
+main section:nth-of-type(3) p {
+    margin-bottom: 1rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+main section:nth-of-type(4) {
+    width: 100%;
+    background: url("../images/carousel/double-cheesecake-machta3.jpg") no-repeat;
+    background-position: center;
+    ;
+}
+
+
+/* main {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #F6EED9;
+    margin: 0 auto;
+}
+
+
+
+main section {
+    width: 90%;
     overflow: auto;
 }
 
@@ -117,10 +192,6 @@ main .product img {
 }
 
 
-/* end webshop adn recipes parts*/
-
-
-/* start about-us section */
 
 .about-us p {
     text-align: left;
@@ -128,10 +199,6 @@ main .product img {
 }
 
 
-/* end about-us section */
-
-
-/* start contact section */
 
 main .contact {
     width: 100%;
@@ -170,6 +237,7 @@ main .contact a {
     background-color: rgb(255, 255, 255);
     border-radius: 95px;
 }
+ */
 
 
 /* end contact section */
