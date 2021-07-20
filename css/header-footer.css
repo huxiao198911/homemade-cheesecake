@@ -10,6 +10,7 @@
 }
 
 html {
+    min-width: 980px;
     width: 100%;
     min-height: 100%;
     font-size: 100%;
@@ -36,7 +37,7 @@ header {
     text-align: center;
 }
 
-#logo,
+.logo,
 nav,
 #login,
 #purchase {
@@ -44,12 +45,12 @@ nav,
     line-height: 100px;
 }
 
-#logo {
+.logo {
     width: 20%;
     margin: 0 auto;
 }
 
-#logo img {
+.logo img {
     width: 80%;
     vertical-align: middle;
 }
@@ -63,15 +64,18 @@ nav>a,
 nav .dropdown {
     width: 20%;
     float: left;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .dropdown .sub-menu {
+    min-width: 20%;
     line-height: 2.5;
     position: absolute;
     top: 100px;
     background-color: #F3E4BA;
     opacity: 0;
-    transition: all 0.8s;
+    transition: opacity 0.8s;
 }
 
 .dropdown .sub-menu a {
@@ -79,14 +83,13 @@ nav .dropdown {
 }
 
 nav .dropdown:nth-of-type(1) .sub-menu {
-    left: 15%;
+    left: 20%;
 }
 
 nav .dropdown:nth-of-type(2) .sub-menu {
-    left: 35%;
+    left: 40%;
 }
 
-nav .dropdown:hover .sub-menu,
 nav .dropdown:hover .sub-menu {
     opacity: 1;
     z-index: 2;
@@ -110,253 +113,54 @@ a.active {
 }
 
 
-/*  header>ul li {
-    float: left;
-    line-height: 100px;
-}
+/* footer css */
 
-
-
-
-header ul #logo {
-    width: 20%;
-}
-
-header ul #logo img {
-    width: 80%;
-    vertical-align: middle;
-}
-
-
-
-
-header ul .nav {
-    width: 60%;
-}
-
-header ul .nav li {
-    width: 20%;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-header .nav>ul a,
-header #login a,
-header #purchase a {
-    padding: 1rem 2rem;
-}
-
-header ul .nav ul .menu {
+footer {
+    color: #FFF;
+    background-color: #7D8655;
+    width: 100%;
+    height: 180px;
     position: relative;
 }
 
-header ul .nav ul .menu .sub-menu {
-    background-color: #F3E4BA;
-    width: 150%;
-    margin-left: -25%;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    display: none;
+footer .logo,
+footer nav {
+    height: 140px;
+    line-height: 140px;
 }
 
-header ul .nav ul .menu:hover .sub-menu {
-    display: block;
+footer nav a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-header ul .nav ul li .sub-menu li {
-    width: 100%;
-    line-height: 2.5;
-    white-space: nowrap;
+footer .contact-info {
+    width: 20%;
+    float: right;
+    margin-top: 1rem;
+    line-height: 2;
 }
 
-header ul .nav li .sub-menu li a {
-    padding: 0.5rem 1rem;
+footer .contact-info a {
+    display: inline;
+    word-spacing: 0.5rem;
+    color: #FFF;
+}
+
+footer .contact-info li:nth-child(2) a {
     font-size: 0.8rem;
 }
 
-header ul #login,
-header ul #purchase {
-    width: 10%;
-    font-size: 2rem;
-    text-align: center;
-}
-
-header a.active,
-header .nav a:hover,
-header #login a:hover,
-header #purchase a:hover {
-    background-color: #7D8655;
-    color: #fff;
-} */
-
-
-/* header {
+footer .copyright {
     width: 100%;
-    height: 100px;
-    background-color: rgb(243, 228, 186);
-    position: relative;
-} */
-
-
-/* start logo */
-
-
-/* header .logo {
-    color: rgb(0, 0, 0);
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
+    border-top: 1px solid #FFF;
+    padding-top: 1rem;
     position: absolute;
-    top: 0;
+    bottom: 20px;
     left: 0;
-} */
-
-
-/* .logo span {
-    text-indent: -999px;
-    height: 100%;
-    display: inline-block;
-    vertical-align: middle;
-} */
-
-
-/* .logo a {
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
-
-
-/* header .logo a {
-    height: 100%;
-    line-height: 100px;
-} */
-
-
-/* .logo img {
-    width: 90%;
-    height: auto;
-    vertical-align: middle;
-} */
-
-
-/* end logo */
-
-
-/* start navigation */
-
-
-/* 
-header nav {
-    width: 60%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    left: 20%;
-}
-
-header nav ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-header nav ul li {
-    flex: 1;
     text-align: center;
-    line-height: 100px;
-    position: relative;
 }
-
-header nav ul li a,
-#login a,
-#purchase a {
-    font-size: 1vw;
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: 1rem 1.5rem;
-}
-
-header nav ul li a:hover,
-header nav ul li a.active,
-.sub-menu .menu-item a:hover {
-    background-color: rgb(125, 134, 85);
-    color: rgb(255, 255, 255);
-}
-
-.sub-menu {
-    width: 120%;
-    height: 200%;
-    display: block;
-    background-color: rgb(243, 228, 186);
-    visibility: hidden;
-    position: absolute;
-    top: 100%;
-    left: -10%;
-}
-
-.sub-menu .menu-item {
-    height: 25%;
-    line-height: 50px;
-    display: block;
-    white-space: nowrap;
-}
-
-.sub-menu .menu-item a {
-    height: 100%;
-    width: 100%;
-    display: block;
-    font-size: 0.8vw;
-    padding: 0;
-    margin: 0;
-}
-
-.menu li:nth-child(2):hover .web-menu,
-.menu li:nth-child(3):hover .recipe-menu {
-    visibility: visible;
-    z-index: 2;
-} */
-
-
-/* end navigation */
-
-
-/* header #login,
-header #purchase {
-    position: absolute;
-    width: 10%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
-    line-height: 110px;
-    margin: 0;
-}
-
-header #login {
-    top: 0;
-    left: 80%;
-}
-
-header #purchase {
-    top: 0;
-    left: 90%;
-}
-
-header .fas {
-    font-size: 3vw;
-}
-
-header #login a:hover,
-header #purchase a:hover,
-header #login .active,
-header #purchase .active {
-    color: rgb(125, 134, 85);
-} */
-
-
-/* footer css */
 
 
 /* 

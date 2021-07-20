@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="css/webfonts/fontawesome-web/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="css/home-styles.css">
     <title>Beste homemade cheesecake en cheesecake recepten</title>
 </head>
@@ -20,7 +19,7 @@
     <!-- start header -->
     <header>
         <!-- start logo -->
-        <div id="logo">
+        <div class="logo">
             <a href="index.html" title="homemade-cheesecake">
                 <img src="images/logo/logo.png" alt="Homemadecheese cake logo">
             </a>
@@ -155,7 +154,7 @@
                     <img src="images/carousel/basque-cheesecake2.jpg" alt="Basque Cheesecake" title="Basque Cheesecake">
                 </a>
             </div>
-            <div class="slider">
+            <!-- <div class="slider">
                 <div class="content">
                     <h1>
                         Cotton Cheesecake
@@ -190,7 +189,7 @@
                 <a href="pages/products/tokyo-cheesecake/index.html">
                     <img src="images/carousel/tokyo-cheesecake5.jpg" alt="Tokyo Cheesecake" title="Tokyo Cheesecake">
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- end carousel -->
@@ -321,34 +320,24 @@
     <footer>
         <!-- start logo -->
         <div class="logo">
-            <span>Homemade Cheesecake logo</span>
             <a href="index.html" title="Homemade cheesecake">
                 <img src="images/logo/logo.png" alt="Homemade cheese cake logo">
             </a>
         </div>
-
-
         <!-- end logo -->
 
         <!-- start navigation menu -->
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="pages/products/index.html">Webshop</a>
-                </li>
-                <li>
-                    <a href="pages/recipes/index.html">Recepten</a>
-                </li>
-                <li>
-                    <a href="pages/about-us/index.html">Over ons</a>
-                </li>
-                <li>
-                    <a href="pages/contact/index.html">Contact</a>
-                </li>
-            </ul>
+            <a href="index.html">Home</a>
+
+            <a href="pages/products/index.html">Webshop</a>
+
+            <a href="pages/recipes/index.html">Recepten</a>
+
+            <a href="pages/about-us/index.html">Over ons</a>
+
+            <a href="pages/contact/index.html">Contact</a>
+
         </nav>
         <!-- end navigation menu -->
 
@@ -373,7 +362,7 @@
             </ul>
         </div>
         <div class="copyright">
-            <p>HomemadeCheesecake&copy;2021, Privacy Policy</p>
+            <small>HomemadeCheesecake&copy;2021, Privacy Policy</small>
         </div>
 
         <!-- end contact info -->
@@ -381,18 +370,7 @@
     </footer>
     <!-- end footer -->
 
-    <!-- js code -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.bxslider').bxSlider({
-                mode: 'fade',
-                captions: true,
 
-            });
-        });
-    </script>
 </body>
 
 </html>
