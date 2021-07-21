@@ -1,12 +1,34 @@
 /* breadcrumb styles */
 
 main .breadcrumb {
+    width: 100%;
     margin: 3rem;
 }
 
+.breadcrumb>a {
+    display: inline-block;
+    border: 1px solid #838383;
+    padding: 0.5rem 1rem;
+}
+
+.breadcrumb div {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.breadcrumb div a {
+    display: inline-block;
+}
+
+.breadcrumb a:hover {
+    font-weight: bold;
+}
+
+
+/* 
 .breadcrumb .return {
     padding: 0.5rem 1rem;
-    border: 1px solid rgb(131, 131, 131);
+    border: 1px solid #838383;
 }
 
 .breadcrumb .fas {
@@ -21,7 +43,7 @@ main .breadcrumb {
 
 .breadcrumb a:hover {
     font-weight: bold;
-}
+} */
 
 
 /* end breadcrumb styles */

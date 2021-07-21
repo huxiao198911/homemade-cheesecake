@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="../../../css/webfonts/fontawesome-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/webfonts/icomoon/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="../../../css/webshop/prd-styles.css">
     <title>Double Cheesecake</title>
 </head>
@@ -21,7 +20,6 @@
     <header>
         <!-- start logo -->
         <div class="logo">
-            <span>Homemade Cheesecake logo</span>
             <a href="../../../index.html" title="homemade-cheesecake">
                 <img src="../../../images/logo/logo.png" alt="Homemadecheese cake logo">
             </a>
@@ -30,56 +28,48 @@
         <!-- end logo -->
 
         <!-- start navigation menu -->
-        <nav class="menu">
-            <ul>
-                <li class="menu-item">
-                    <a href="../../../index.html">Home</a>
-                </li>
-                <li class="menu-item">
-                    <a class="active" href="../index.html">Webshop</a>
-                    <ul class="sub-menu web-menu">
-                        <li class="menu-item"><a href="../basque-burnt-cheesecake/index.html">Basque Cheesecake</a></li>
-                        <li class="menu-item"><a href="../cotton-cheesecake/index.html">Cotton Cheesecake</a></li>
-                        <li class="menu-item"><a href="index.html">Double Cheesecake</a></li>
-                        <li class="menu-item"><a href="../tokyo-cheesecake/index.html">Tokyo Cheesecake</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="../../recipes/index.html">Recepten</a>
-                    <ul class="sub-menu recipe-menu">
-                        <li class="menu-item"><a href="../../recipes/basque-burnt-cheesecake/index.html">Basque Cheesecake</a></li>
-                        <li class="menu-item"><a href="../../recipes/cotton-cheesecake/index.html">Cotton Cheesecake</a></li>
-                        <li class="menu-item"><a href="../../recipes/double-cheesecake/index.html">Double Cheesecake</a></li>
-                        <li class="menu-item"><a href="../../recipes/tokyo-cheesecake/index.html">Tokyo Cheesecake</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="../../about-us/index.html">Over ons</a>
-                </li>
-                <li class="menu-item">
-                    <a href="../../contact/index.html">Contact</a>
-                </li>
-            </ul>
+        <nav>
+            <a href="../../../index.html">Home</a>
+            <div class="dropdown">
+                <a class="active" href="../index.html">Webshop</a>
+                <div class="sub-menu">
+                    <a href="../basque-burnt-cheesecake/index.html">Basque Cheesecake</a>
+                    <a href="../cotton-cheesecake/index.html">Cotton Cheesecake</a>
+                    <a href="index.html">Double Cheesecake</a>
+                    <a href="../tokyo-cheesecake/index.html">Tokyo Cheesecake</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="../../recipes/index.html">Recepten</a>
+                <div class="sub-menu recipe-menu">
+                    <a href="../../recipes/basque-burnt-cheesecake/index.html">Basque Cheesecake</a>
+                    <a href="../../recipes/cotton-cheesecake/index.html">Cotton Cheesecake</a>
+                    <a href="../../recipes/double-cheesecake/index.html">Double Cheesecake</a>
+                    <a href="../../recipes/tokyo-cheesecake/index.html">Tokyo Cheesecake</a>
+                </div>
+            </div>
+            <a href="../../about-us/index.html">Over ons</a>
+            <a href="../../contact/index.html">Contact</a>
         </nav>
         <!-- end navigation menu -->
 
         <!-- start inloggen -->
-        <h1 id="login">
+        <div id="login">
             <a href="../../log-in/index.html"><i class="fas fa-user-circle"></i>
                 </a>
-        </h1>
+        </div>
         <!-- end inloggen -->
 
         <!-- start purchase -->
-        <h1 id="purchase">
+        <div id="purchase">
             <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </h1>
+        </div>
         <!-- end purchase -->
     </header>
     <!-- end header -->
 
     <!-- start main content -->
-    <main class="container">
+    <main>
 
         <!-- start breadcrumb -->
         <section class="breadcrumb">
@@ -98,10 +88,10 @@
         <aside class="sidebar">
             <h1>Producten</h1>
             <ul>
-                <li><a href="../basque-burnt-cheesecake/index.html"> Basque Cheesecake</a></li>
-                <li><a href="../cotton-cheesecake/index.html">Cotton Cheesecak</a></li>
-                <li class="active"><a href="index.html">Double Cheesecake</a></li>
-                <li><a href="../tokyo-cheesecake/index.html">Tokyo Cheesecake</a></li>
+                <li><a href="../basque-burnt-cheesecake/index.html"> Basque Cheesecake</a>
+                    <li><a href="../cotton-cheesecake/index.html">Cotton Cheesecak</a>
+                        <li class="active"><a href="index.html">Double Cheesecake</a>
+                            <li><a href="../tokyo-cheesecake/index.html">Tokyo Cheesecake</a>
             </ul>
         </aside>
         <!-- end sidebar -->
@@ -112,7 +102,7 @@
                     <div class="slider">
                         <img src="../../../images/products/double-cheese-cake/original/double-cheesecake-original3.jpg" alt="Double Cheesecake Origineel Smaak" title="Double Cheesecake Origineel Smaak">
                     </div>
-                    <div class="slider">
+                    <!-- <div class="slider">
                         <img src="../../../images/products/double-cheese-cake/original/double-cheesecake-origina5.jpg" alt="Double Cheesecake Origineel Smaak" title="Double Cheesecake Origineel Smaak">
                     </div>
                     <div class="slider">
@@ -126,7 +116,7 @@
                     </div>
                     <div class="slider">
                         <img src="../../../images/products/double-cheese-cake/chocolate/double-cheesecake-chocolate2.jpg" alt="Double Cheesecake Chocolade Smaak" title="Double Cheesecake Chocolade Smaak">
-                    </div>
+                    </div> -->
             </article>
             <article class="prd-buy">
                 <h1>Double Cheesecake</h1>
@@ -228,7 +218,6 @@
     <footer>
         <!-- start logo -->
         <div class="logo">
-            <span>Homemade Cheesecake logo</span>
             <a href="../../../index.html" title="Homemade cheesecake">
                 <img src="../../../images/logo/logo.png" alt="Homemadecheese cake logo">
             </a>
@@ -239,22 +228,16 @@
 
         <!-- start navigation menu -->
         <nav>
-            <ul>
-                <li>
-                    <a href="../../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../index.html">Webshop</a>
-                </li>
-                <li>
-                    <a href="../../recipes/index.html">Recepten</a>
-                </li>
-                <li>
-                    <a href="../../about-us/index.html">Over ons</a>
-                </li>
-                <li>
-                    <a href="../../contact/index.html">Contact</a>
-                </li>
+            <a href="../../../index.html">Home</a>
+
+            <a href="../index.html">Webshop</a>
+
+            <a href="../../recipes/index.html">Recepten</a>
+
+            <a href="../../about-us/index.html">Over ons</a>
+
+            <a href="../../contact/index.html">Contact</a>
+
             </ul>
         </nav>
         <!-- end navigation menu -->
@@ -275,8 +258,10 @@
 
                 </li>
                 <li><i class="fas fa-envelope"></i>
-                    <span>E-mail:</span> <a href="mailto:huxiao198911@gmail.com">huxiao198911@gmail.com</a></li>
-                <li><i class="fas fa-phone-alt "></i> <span>tel: 068 4403417</span></li>
+                    <a href="mailto:huxiao198911@gmail.com">huxiao198911@gmail.com</a>
+                </li>
+                <li><i class="fas fa-phone-alt "></i> <span>tel: 068 4403417</span>
+                </li>
             </ul>
         </div>
         <div class="copyright">
@@ -288,18 +273,7 @@
     </footer>
     <!-- end footer -->
 
-    <!-- js code -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.bxslider').bxSlider({
-                mode: 'fade',
-                captions: true,
 
-            });
-        });
-    </script>
 
 </body>
 

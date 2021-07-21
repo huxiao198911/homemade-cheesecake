@@ -75,6 +75,7 @@ main section article {
     width: 23.5%;
     float: left;
     margin: 0 1%;
+    overflow: hidden;
 }
 
 main section article img {
@@ -96,7 +97,7 @@ main section article p {
 }
 
 .carousel div span {
-    width: 30%;
+    width: 15%;
 }
 
 .carousel div span:hover,

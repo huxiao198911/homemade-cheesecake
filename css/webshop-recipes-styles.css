@@ -5,35 +5,75 @@
 
 main {
     width: 100%;
-    background-color: rgb(246, 238, 217);
+    background-color: #F6EED9;
+    text-align: center;
     overflow: hidden;
 }
 
-main h1 {
-    text-align: center;
+main .breadcrumb {
+    text-align: left;
+}
+
+main h1,
+main h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    margin: 1.5rem 0;
+}
+
+main p {
+    margin: 1rem 0;
 }
 
 main .products {
     width: 90%;
-    text-align: center;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .product {
-    width: 45%;
+    width: 47%;
     float: left;
-    padding: 2% 2%;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.product:nth-child(2n+1) {
+    margin-right: 3%;
+}
+
+.product:nth-child(2n) {
+    margin-left: 2.5%;
 }
 
 .product img {
     width: 100%;
+    transition: transform 0.5s;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+main article span {
     display: inline-block;
+    background-color: #FFF;
+    padding: 0.3rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
 }
 
-.product h2 {
-    text-transform: uppercase;
+main article span:hover {
+    background-color: #838383;
+    color: #FFF;
 }
 
+
+/* 
 .buy,
 .recipe {
     display: inline-block;
@@ -53,13 +93,14 @@ main .products {
 
 .product:hover {
     background-color: rgb(204, 204, 204);
-}
+} */
 
-.buy:hover,
+
+/* .buy:hover,
 .recipe:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(131, 131, 131);
-}
+} */
 
 
 /* end webshop adn recipes parts*/
