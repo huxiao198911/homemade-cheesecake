@@ -1,16 +1,10 @@
 @import"header-footer.css";
 @import"layout.css";
-main {
-    width: 100%;
-    overflow: hidden;
-    background-color: #F6EED9;
-}
-
 main section {
     width: 80%;
     margin: 0 auto;
-    padding: 2rem;
     overflow: auto;
+    margin-bottom: 1rem;
 }
 
 main section h2 {

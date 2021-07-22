@@ -25,60 +25,33 @@ main .breadcrumb {
 }
 
 
-/* 
-.breadcrumb .return {
-    padding: 0.5rem 1rem;
-    border: 1px solid #838383;
-}
-
-.breadcrumb .fas {
-    margin: 0 0.1rem;
-}
-
-.breadcrumb div {
-    text-transform: uppercase;
-    display: inline-block;
-    margin-left: 1rem;
-}
-
-.breadcrumb a:hover {
-    font-weight: bold;
-} */
-
-
-/* end breadcrumb styles */
-
-
 /* sidebar styles */
 
-aside.sidebar {
-    width: 20%;
-    height: auto;
-    margin-left: 3rem;
+.sidebar {
+    width: 18%;
+    margin-left: 5%;
+    margin-right: 2%;
     float: left;
 }
 
-.sidebar ul {
-    width: 100%;
-    margin: 0 auto;
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .sidebar ul li {
-    padding: 1rem;
+    margin: 1rem 0;
 }
 
-.sidebar ul li:hover,
-.sidebar ul li.active {
-    background-color: rgb(125, 134, 85);
-    border: 1px solid rgb(246, 238, 217);
-    font-size: 1.5vw;
-    font-weight: bold;
-    text-shadow: -1px 1px 2px rgb(246, 238, 217);
+.sidebar ul li a {
+    min-width: 150px;
+    padding: 0.5rem 0.5rem;
 }
 
-.sidebar ul li.active a,
-.sidebar ul li:hover a {
-    color: rgb(255, 255, 255);
+.sidebar .active,
+.sidebar a:hover {
+    background-color: #7D8655;
+    color: #FFF;
 }
 
 

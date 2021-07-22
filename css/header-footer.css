@@ -4,27 +4,45 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
 html {
     min-width: 980px;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     font-size: 100%;
 }
 
 body {
-    min-height: 100%;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    background-color: #F6EED9;
+    overflow: hidden;
 }
 
 h1 {
     font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 a {
     display: block;
     text-decoration: none;
     color: #000;
+}
+
+img {
+    width: 100%;
 }
 
 
@@ -111,8 +129,11 @@ a.active {
 }
 
 #login a:hover,
-#purchase a:hover {
+#purchase a:hover,
+#login a.active,
+#purchase a.active {
     color: #7D8655;
+    background-color: #F3E4BA;
 }
 
 

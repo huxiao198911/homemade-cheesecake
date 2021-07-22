@@ -3,15 +3,86 @@
 
 /* start main content */
 
-main {
+main .prd {
+    float: left;
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    margin-bottom: 1rem;
+}
+
+.prd {
+    width: 70%;
+    margin-right: 5%;
+}
+
+.prd>article {
+    width: 49%;
+    float: left;
+}
+
+.prd .prd-buy {
+    margin-left: 2%;
+}
+
+.prd .prd-buy p {
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.prd .prd-info {
     width: 100%;
-    background-color: #F6EED9;
     overflow: hidden;
+    clear: both;
+}
+
+.prd .prd-info h1,
+.prd .prd-info h2 {
+    margin-top: 1rem;
+}
+
+.prd .prd-info a {
+    display: inline;
+    color: #7D8655;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.prd .prd-info table {
+    margin-top: 1rem;
+}
+
+.prd-info table td,
+.prd-info table th {
+    padding: 0.5rem 1rem;
+    border: 1px solid #F6EED9;
+}
+
+.prd-info table td:nth-child(1),
+.prd-info table th:nth-child(1) {
+    background-color: #7D8655;
+    color: #FFF;
+}
+
+.prd-info table td:nth-child(2) {
+    background-color: #CCC;
+}
+
+.prd-info table span {
+    margin-left: 0.5rem;
+}
+
+.prd-info table span:nth-child(1) {
+    margin-left: 0;
 }
 
 
 /* start product  parts */
 
+
+/* 
 main .prd {
     width: 75%;
     margin: 0 auto;
@@ -21,7 +92,7 @@ main .prd {
 }
 
 
-/* product image slider */
+
 
 .prd .prd-img {
     width: 55%;
@@ -53,7 +124,7 @@ main .prd {
 }
 
 
-/* end image slider */
+
 
 .prd .prd-buy {
     width: 40%;
@@ -136,7 +207,7 @@ main .prd {
 
 .prd-info table span:nth-child(1) {
     margin-left: 0;
-}
+} */
 
 
 /* end product parts*/

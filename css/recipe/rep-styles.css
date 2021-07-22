@@ -3,13 +3,32 @@
 
 /* start main content */
 
-main {
-    width: 100%;
-    background-color: rgb(246, 238, 217);
-    overflow: hidden;
+main .prd-recipe {
+    width: 70%;
+    margin-right: 5%;
+    float: left;
 }
 
-main section.prd-recipe {
+main .prd-recipe h1 {
+    text-align: center;
+}
+
+main .prd-recipe p,
+main .prd-recipe h2,
+main .prd-recipe li {
+    margin: 1rem;
+}
+
+main .prd-recipe ul {
+    list-style-type: square;
+}
+
+main .prd-recipe ol {
+    list-style-type: number;
+}
+
+
+/* main section.prd-recipe {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -62,7 +81,7 @@ main section.prd-recipe {
 .prd-recipe article ol li {
     list-style-type: decimal;
     margin: 1rem 0;
-}
+} */
 
 
 /* end main content */
