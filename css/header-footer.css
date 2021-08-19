@@ -10,7 +10,7 @@
 
 html {
     min-width: 980px;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     font-size: 100%;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    width: 100%;
+    width: 100vw;
     background-color: #F6EED9;
     overflow: hidden;
 }
@@ -49,7 +49,7 @@ img {
 /* header */
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: #F3E4BA;
     text-align: center;

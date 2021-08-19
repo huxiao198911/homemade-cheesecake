@@ -4,8 +4,8 @@
 
 section.carousel {
     position: relative;
-    width: 100%;
-    height: 700px;
+    width: 100vw;
+    height: 50vw;
     overflow: hidden;
     text-align: left;
 }
@@ -27,8 +27,7 @@ ul.pro-images li {
 
 ul.pro-images img {
     width: 100%;
-    height: 100%;
-    margin-top: -150px;
+    height: auto;
 }
 
 
@@ -51,12 +50,16 @@ ul.pro-images img {
     font-size: 3rem;
     color: #fff;
     text-shadow: 2px 3px 5px #000;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
 .carousel .content div p {
     font-size: 1.8rem;
     color: #fff;
     margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
 .carousel .content div.current {

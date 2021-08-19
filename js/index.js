@@ -31,7 +31,7 @@ window.addEventListener('load', function() {
         arrows.style.opacity = '0';
         var timeId = setInterval(function() {
             rightArr.click();
-        }, 3000);
+        }, 2000);
     });
 
     //step 2: calculate the number of circle based on the number of images and corresponding image content appears
@@ -117,7 +117,7 @@ window.addEventListener('load', function() {
     // step 5: carousel auto play
     var timeId = setInterval(function() {
         rightArr.click();
-    }, 3000);
+    }, 2000);
 
 
 
