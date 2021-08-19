@@ -22,6 +22,9 @@ main h1 {
     float: left;
 }
 
+
+/* products price */
+
 .prd .prd-buy {
     margin-left: 2%;
 }
@@ -31,6 +34,34 @@ main h1 {
     font-weight: bold;
     font-size: 1.3rem;
 }
+
+
+/* products showcase */
+
+.prd-img .showcase {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prd-img .showcase li {
+    width: 25%;
+}
+
+.prd-img .showcase li:hover {
+    cursor: pointer;
+}
+
+.prd-img .showcase li img {
+    vertical-align: bottom;
+}
+
+.prd-img .showcase li.current {
+    border: 2px solid #7D8655;
+}
+
+
+/* products description */
 
 .prd .prd-info {
     width: 100%;
@@ -77,140 +108,3 @@ main h1 {
 .prd-info table span:nth-child(1) {
     margin-left: 0;
 }
-
-
-/* start product  parts */
-
-
-/* 
-main .prd {
-    width: 75%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    float: none;
-    overflow: hidden;
-}
-
-
-
-
-.prd .prd-img {
-    width: 55%;
-    float: left;
-}
-
-.prd-img img {
-    width: 100%;
-    display: block;
-}
-
-.bx-wrapper {
-    border: none;
-    box-shadow: none;
-    margin-bottom: -5px;
-}
-
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-    bottom: 15px;
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a {
-    background: rgb(255, 255, 255);
-}
-
-.slider {
-    position: relative;
-}
-
-
-
-
-.prd .prd-buy {
-    width: 40%;
-    margin-left: 2rem;
-    float: left;
-}
-
-.prd h1 {
-    font-family: roboto;
-    text-transform: none;
-    margin-top: 0;
-}
-
-.prd p {
-    font-size: 1vw;
-    margin-top: 0;
-}
-
-.prd p>a {
-    color: rgb(125, 134, 85);
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.prd-buy .price {
-    font-size: 2vw;
-    font-weight: bold;
-    margin: 0 auto;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-}
-
-.prd-buy form label {
-    padding-left: 1rem;
-    font-weight: bold;
-    font-size: 1.5vw;
-}
-
-.prd-buy button {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(131, 131, 131);
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    margin-left: 1rem;
-}
-
-.prd-buy button:hover {
-    background-color: rgb(131, 131, 131);
-    color: rgb(255, 255, 255);
-}
-
-.prd-info {
-    clear: both;
-    overflow: hidden;
-}
-
-.prd-info article {
-    margin-top: 3rem;
-}
-
-.prd-info table td,
-.prd-info table th {
-    padding: 0.5rem 1rem;
-    border: 1px solid rgb(246, 238, 217);
-}
-
-.prd-info table td:nth-child(1),
-.prd-info table th:nth-child(1) {
-    background-color: rgb(125, 134, 85);
-    color: rgb(255, 255, 255);
-}
-
-.prd-info table td:nth-child(2) {
-    background-color: rgb(204, 204, 204);
-}
-
-.prd-info table span {
-    margin-left: 0.5rem;
-}
-
-.prd-info table span:nth-child(1) {
-    margin-left: 0;
-} */
-
-
-/* end product parts*/
-
-
-/* end main content */
